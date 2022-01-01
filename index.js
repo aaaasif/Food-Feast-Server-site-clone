@@ -2,6 +2,7 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 const app = express();
 const port = process.env.PORT || 5000;
+const ObjectId = require('mongodb').ObjectId;
 
 const cors = require("cors");
 require("dotenv").config();
@@ -26,7 +27,7 @@ async function run() {
     const reviewCollection = database.collection('Reviews');
     const userCollection = database.collection('Users');
 
-    // insert new collection
+    // add new Food
     app.post('/foods', async (req, res) => {
       const food = req.body;
       const result = await foodCollection.insertOne(food);
@@ -37,6 +38,22 @@ async function run() {
     app.get('/foods', async (req, res) => {
       const cursor = foodCollection.find({});
       const result = await cursor.toArray();
+      res.json(result);
+    })
+
+    // find Food by ID
+    app.get('/foods/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const result = await foodCollection.findOne(query);
+      res.json(result);
+    })
+
+    // delete Food by ID
+    app.delete('/foods/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const result = await foodCollection.deleteOne(query);
       res.json(result);
     })
 
@@ -107,8 +124,6 @@ async function run() {
       }
       res.json({ admin: isAdmin })
     })
-
-
 
 
   } finally {

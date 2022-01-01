@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Hybrid Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/nbzTzMC/pexels-natasha-filippovskaya-4394612.jpg",
+        "description": "a flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc.",
+        "rating": 4,
+        "price": 14.99
+    },
+    {
+        "name": "Vegetable Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/yFsrLnw/pexels-beqa-tefnadze-803290-1.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc.",
+        "rating": "4.5",
+        "price": 9.89
+    },
+    {
+        "name": "Cheese Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/LSHr4ZF/pexels-ahmad-nawawi-2714722.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4.2",
+        "price": 8.75
+    },
+    {
+        "name": "Veggie Pizza With Crispy Crust",
+        "type": "pizza",
+        "url": "https://i.ibb.co/Zx79mPy/pexels-andy-kuzma-2918521.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4.5",
+        "price": 8.69
+    },
+    {
+        "name": "Mini Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/jWjdycb/pexels-kristina-paukshtite-1146760.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4",
+        "price": 6.49
+    },
+    {
+        "name": "Pepperoni Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/Jt6MGZm/pexels-engin-akyurt-1435907.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4",
+        "price": 8.59
+    },
+    {
+        "name": "Onion Cheese Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/ZmBtT6N/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4",
+        "price": 6.99
+    },
+    {
+        "name": "Pepperoni Cheese Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/r6433Hq/pexels-kei-photo-2741457.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4.3",
+        "price": 12.99
+    },
+    {
+        "name": "Smoked Veggies Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/8D6xfNK/pexels-engin-akyurt-2619967.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4.3",
+        "price": 9.99
+    },
+    {
+        "name": "Burned Crispy Pizza",
+        "type": "pizza",
+        "url": "https://i.ibb.co/c8csw0K/pexels-brett-jordan-825661.jpg",
+        "description": "A flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc",
+        "rating": "4.6",
+        "price": 11.99
+    },
+    {
+        "name": "Burger Bristo",
+        "type": "burger",
+        "url": "https://i.ibb.co/LknzyTf/pexels-valeria-boltneva-1199957.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.2",
+        "price": 2.99
+    },
+    {
+        "name": "Smoking Burger",
+        "type": "burger",
+        "url": "https://i.ibb.co/M7H9grJ/food-photographer-david-fedulov-E94j3r-Mcxlw-unsplash.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.6",
+        "price": 3.40
+    },
+    {
+        "name": "Bingo Burger",
+        "type": "burger",
+        "url": "https://i.ibb.co/6n90xvh/pexels-aleksandar-ljubicic-4809149.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.3",
+        "price": 5.99
+    },
+    {
+        "name": "The Smokin' Patty",
+        "type": "burger",
+        "url": "https://i.ibb.co/tCb0N4f/pexels-anna-tukhfatullina-food-photographerstylist-2702674.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "5",
+        "price": 6.20
+    },
+    {
+        "name": "Burger with French Fries",
+        "type": "burger",
+        "url": "https://i.ibb.co/RSJLC3b/pexels-engin-akyurt-3219547.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.6",
+        "price": 4.99
+    },
+    {
+        "name": "Double patty Humburger",
+        "type": "burger",
+        "url": "https://i.ibb.co/Dgpk885/pexels-marcelo-oliveira-santana-6697455.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 6.20
+    },
+    {
+        "name": "Knuckle Burger",
+        "type": "burger",
+        "url": "https://i.ibb.co/xmCmnVP/pexels-rajesh-tp-1633578.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 5.20
+    },
+    {
+        "name": "Cheesy Burger",
+        "type": "burger",
+        "url": "https://i.ibb.co/xC6zfgC/pexels-daniel-reche-1556698.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 5.20
+    },
+    {
+        "name": "Burger Sandwich",
+        "type": "burger",
+        "url": "https://i.ibb.co/0yCdMGf/pexels-andra-918581.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 5.50
+    },
+    {
+        "name": "Sliced Smoked Burger",
+        "type": "burger",
+        "url": "https://i.ibb.co/VJ6y9st/pexels-valeria-boltneva-1199960.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 6.99
+    }
+]
