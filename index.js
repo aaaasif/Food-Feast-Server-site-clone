@@ -34,6 +34,17 @@ async function run() {
       res.json(result);
     })
 
+
+    // find food by type
+    app.get('/foods/query', async (req, res) => {
+      const type = req.query.type
+      const query = { type: type };
+      const cursor = foodCollection.find(query);
+      const result = await cursor.toArray();
+      res.json(result)
+    })
+
+
     // find All Food
     app.get('/foods', async (req, res) => {
       const cursor = foodCollection.find({});
@@ -57,14 +68,6 @@ async function run() {
       res.json(result);
     })
 
-    // find food by type
-    app.get('/foods/query', async (req, res) => {
-      const type = req.query.type
-      const query = { type: type };
-      const cursor = foodCollection.find(query);
-      const result = await cursor.toArray();
-      res.json(result)
-    })
 
     // add a review
     app.post('/reviews', async (req, res) => {
