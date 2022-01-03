@@ -24,6 +24,7 @@ async function run() {
     await client.connect();
     const database = client.db('FoodFeast');
     const foodCollection = database.collection('Foods');
+    const orderCollection = database.collection('Orders');
     const reviewCollection = database.collection('Reviews');
     const userCollection = database.collection('Users');
 
@@ -52,6 +53,7 @@ async function run() {
       res.json(result);
     })
 
+
     // find Food by ID
     app.get('/foods/:id', async (req, res) => {
       const id = req.params.id;
@@ -67,6 +69,32 @@ async function run() {
       const result = await foodCollection.deleteOne(query);
       res.json(result);
     })
+
+
+
+    // find food by type
+    app.get('/orders/query', async (req, res) => {
+      const email = req.query.email
+      const query = { email: email };
+      const cursor = orderCollection.find(query);
+      const result = await cursor.toArray();
+      res.json(result)
+    })
+
+    // find All order
+    app.get('/orders', async (req, res) => {
+      const cursor = orderCollection.find({});
+      const result = await cursor.toArray();
+      res.json(result);
+    })
+
+    // add new Food
+    app.post('/orders', async (req, res) => {
+      const order = req.body;
+      const result = await orderCollection.insertOne(order);
+      res.json(result);
+    })
+
 
 
     // add a review
