@@ -163,8 +163,64 @@
         "name": "Cooked Ramen",
         "type": "ramen",
         "url": "https://i.ibb.co/xMqsLBr/pexels-cats-coming-1907228.jpg",
-        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
-        "rating": "4.1",
-        "price": 6.99
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 14.99
+    },
+    {
+        "name": "Miso Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/V9qHwQm/pexels-quang-anh-ha-nguyen-884600.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 11.99
+    },
+    {
+        "name": "Soba Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/7YWvmj2/pexels-rodnae-productions-6645920.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 13.39
+    },
+    {
+        "name": "Hakodate Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/stNcB0c/pexels-jan-n-g-u-y-e-n-2664216.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 14.49
+    },
+    {
+        "name": "Abura Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/bFmd1CG/pexels-syed-muhammad-afifi-4110421.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 16.99
+    },
+    {
+        "name": "Spicy Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/hCGR4Z2/pexels-eiliv-aceron-6896514.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 19.99
+    },
+    {
+        "name": "Okinawa Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/5WFKmB4/pexels-kiro-wang-7492300.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.4",
+        "price": 15.99
+    },
+    {
+        "name": "Tokyo Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/RP4zbdh/pexels-rodnae-productions-6646351.jpg",
+        "description": "ramen is a bowl of wheat noodle soup made with a pungent broth and accompanied by various ingredients, added as toppings.",
+        "rating": "4.5",
+        "price": 18.99
     }
 ]
