@@ -95,7 +95,7 @@ async function run() {
       res.json(result);
     })
 
-    // delete Food by ID
+    // delete Order by ID
     app.delete('/orders/:id', async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
