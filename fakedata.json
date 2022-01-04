@@ -158,5 +158,13 @@
         "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
         "rating": "4.1",
         "price": 6.99
+    },
+    {
+        "name": "Cooked Ramen",
+        "type": "ramen",
+        "url": "https://i.ibb.co/xMqsLBr/pexels-cats-coming-1907228.jpg",
+        "description": "Consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "rating": "4.1",
+        "price": 6.99
     }
 ]

@@ -1,11 +1,11 @@
 {
-  "name": "Food-Feast-Client-Side",
+  "name": "Food-Feast-Server-Side",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
-    "start-dev" : "nodemon index.js",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
